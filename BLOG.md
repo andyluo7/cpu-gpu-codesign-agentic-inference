@@ -5,7 +5,7 @@ date: 2026-05-14
 categories: [LLM, AMD, MI300X, vLLM, LMCache, Performance]
 ---
 
-*Quantifying where time actually goes — and why your CPU might be stealing 15% of your GPU throughput.*
+*Quantifying where time actually goes — and why your CPU might be stealing 15% and more of your GPU throughput.*
 
 ---
 

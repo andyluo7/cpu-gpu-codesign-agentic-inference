@@ -1,6 +1,6 @@
-# CPU-GPU Co-Design for Agentic LLM Inference on AMD MI300X
+# CPU-GPU Co-Design for Agentic LLM Inference
 
-Quantifying where time goes in end-to-end agentic LLM inference — and why your CPU might be stealing 15% of your GPU throughput.
+Quantifying where time goes in end-to-end agentic LLM inference — and why your CPU might be stealing 15% and more of your GPU throughput.
 
 **📝 Blog post:** [andyluo7.github.io](https://andyluo7.github.io/llm/amd/mi300x/vllm/lmcache/performance/2026/05/14/cpu-gpu-codesign-agentic-inference-mi300x/)
 
