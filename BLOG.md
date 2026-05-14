@@ -393,11 +393,11 @@ At 52 effective concurrent requests, our superlinear scaling model predicts:
 Real agentic workloads don't just call the LLM — they interleave LLM inference with CPU/IO-bound operations:
 
 ```
- Turn 1: LLM generates SQL query          (GPU: 2-5s)
- Turn 2: Execute SQL against database      (CPU/IO: 50-500ms)
- Turn 3: LLM analyzes results              (GPU: 3-8s)
- Turn 4: Retrieve documents from vector DB (CPU/IO: 20-200ms)
- Turn 5: LLM synthesizes final answer      (GPU: 5-15s)
+ Turn 1: LLM generates SQL query            (GPU: 2-5s)
+ Turn 2: Execute SQL against database       (CPU/IO: 50-500ms)
+ Turn 3: LLM analyzes results               (GPU: 3-8s)
+ Turn 4: Retrieve documents from vector DB  (CPU/IO: 20-200ms)
+ Turn 5: LLM synthesizes final answer       (GPU: 5-15s)
 ```
 
 **The inter-turn gap is a new CPU cost we didn't measure:**
