@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CPU-GPU Co-Design for Agentic LLM Inference on AMD MI300X"
+title: "CPU-GPU Co-Design for Agentic LLM Inference"
 date: 2026-05-14
 categories: [LLM, AMD, MI300X, vLLM, LMCache, Performance]
 ---
